@@ -9,7 +9,7 @@ schema:
     - 空明
     - zhanghaozhecn(schema编写)
   description: |
-    空明码，是专门并击编码方案，有大词库(38万)，码长短(平均0.8)，8万高频词重码少(0.09%)的特点。中州韵是一款支持键盘并击的平台件，可以自定义词库编码，并击平台。
+    空明码，是专门并击编码方案，有大词库(70万)，码长短(平均0.8)，8万高频词重码少(0.09%)的特点。中州韵是一款支持键盘并击的平台件，可以自定义词库编码，并击平台。
   dependencies:
 
 switches:
@@ -83,10 +83,10 @@ chord_composer:
     - xform/(79)/@/
     - xform/(70)/*/
     - xform/(90)/_/
-    - xform/(w-g-|h-o-)/@/
+    - xform/(w-g-|h-o-)/W/
     - xform/(r-g-|h-u-)/*/
-    - xform/(q-g-|h-p-)/_/
-    - xform/(e-g-|h-i-)/0/
+    - xform/(q-g-|h-p-)/Q/
+    - xform/(e-g-|h-i-)/E/
     - xform/(w-e-f-|j-i-o-)/I/
     - xform/(s-e-r-|u-i-l-)/U/
     - xform/(s-e-f-|j-i-l-)/Q/
@@ -100,6 +100,7 @@ chord_composer:
     - xform/(a-f-|j-F-)/;/
     - xform/(a-s-|l-F-)/:/
     - xform/(s-c-|m-l-)/n/
+    - xform/(D-l-)/n/
     - xform/(c-v-|m-D-)/m/
     - xform/(x-c-|D-J-)/,/
     - xform/(a-t-|y-F-)/</
@@ -128,6 +129,7 @@ chord_composer:
     - xform/(z-f-|j-G-)/Z/
     - xform/(x-d-|k-J-)/X/
     - xform/(a-c-|D-F-)/C/
+    - xform/(c-f-|j-D-)/C/
     - xform/(z-s-|l-G-)/V/
     - xform/(w-t-|y-o-)/Y/
     - xform/(q-f-|j-p-)/P/
